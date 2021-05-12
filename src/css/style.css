@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@media screen and (max-width: 750px) {
+  .mob-view-hide {
+    display: none !important;
+  }
+}
+.banner-middle-parent {
+  position: relative;
+}
+.banner-middle-child {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.body {
+  overflow-x: hidden !important;
+}
+.dealsborder {
+  border-bottom: 1px solid gray;
+  position: relative !important;
+}
+.dealsborder:after {
+  content: "" !important;
+  width: 85% !important;
+  height: 1.1px !important;
+  background-color: white !important;
+  position: absolute !important;
+  right: 0 !important;
+  bottom: -1px !important;
+}
+
+.dealsfont {
+  font-family: "Source Serif Pro", serif;
+}
+.dealsheadingfont {
+  font-family: "Ubuntu", sans-serif;
+}
+.dealsend {
+  position: absolute !important;
+  right: 0;
+  font-size: 7px;
+  color: gray;
+  opacity: 0.5;
+  margin-top: 40px;
+}
+.shadow {
+  box-shadow: 3px 8px 8px grey !important;
+}
+
+.coco {
+  width: 60px;
+}
+
+.nav-item {
+  font-weight: bold;
+  color: black;
+}
+
+.nav-item,
+.nav-link {
+  font-size: 17px;
+  color: black;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+input[type="text"] {
+  outline: none;
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+}
