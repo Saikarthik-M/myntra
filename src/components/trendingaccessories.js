@@ -12,9 +12,9 @@ import Rosegold from "../images/trendingaccessories/Rosegold.png";
 
 function TrendingAccessories() {
   return (
-    <div class="container-fluid mx-1">
-      <h3 class="dealsheadingfont">TRENDING IN ACCESSORIES</h3>
-      <div class="row mt-5">
+    <div className="container-fluid mx-1">
+      <h3 className="dealsheadingfont">TRENDING IN ACCESSORIES</h3>
+      <div className="row mt-5">
         <MainCard
           url="https://www.myntra.com/gadgets?f=Categories%3AHeadphones%3A%3AConnectivity%3ATrue%20Wireless"
           src={Wireless}
@@ -54,7 +54,7 @@ function TrendingAccessories() {
         <MainCard
           url="https://www.myntra.com/women-jewellery?f=Categories%3AMangalsutra"
           src={Mangal}
-          heading="The Mangalsutra Collection"
+          heading="Mangalsutra Collection"
           description="A stylish symbol of a lifelong bond"
         />
         <MainCard

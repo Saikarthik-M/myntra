@@ -22,9 +22,9 @@ import Ucb from "../images/biggestdeals/main/ucb.png";
 import Puma from "../images/biggestdeals/main/puma.png";
 function BiggestDeal() {
   return (
-    <div class="container-fluid mx-1 mt-5">
-      <h3 class="dealsheadingfont">BIGGEST DEALS ON TOP BRANDS </h3>
-      <div class="row mt-5">
+    <div className="container-fluid mx-1 mt-5">
+      <h3 className="dealsheadingfont">BIGGEST DEALS ON TOP BRANDS </h3>
+      <div className="row mt-5">
         <BiggestDealCard
           src1={Us}
           src2={Uslogo}

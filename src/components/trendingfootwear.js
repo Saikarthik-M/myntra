@@ -12,9 +12,9 @@ import FootwearRocia from "../images/trendingfootwear/FootwearRocia.png";
 import Comfort from "../images/trendingfootwear/Comfort.png";
 function TrendingFootWear() {
   return (
-    <div class="container-fluid mx-1">
-      <h3 class="dealsheadingfont">TRENDING IN FOOT WEAR</h3>
-      <div class="row mt-5">
+    <div className="container-fluid mx-1">
+      <h3 className="dealsheadingfont">TRENDING IN FOOT WEAR</h3>
+      <div className="row mt-5">
         <MainCard
           url="https://www.myntra.com/mcfallstyles?f=Color%3ABeige_e8e6cf%2CBlack_36454f%2CGrey%20Melange_9fa8ab%2CGrey_808080%2CNavy%20Blue_3c4477%2COff%20White_f2f2f2%2CSilver_b3b3b3"
           src={Neutral}
@@ -30,7 +30,7 @@ function TrendingFootWear() {
         <MainCard
           url="https://www.myntra.com/printed-sneakers?f=Gender%3Amen%2Cmen%20women"
           src={PrintedSneakers}
-          heading="Printed Sneakers For Men"
+          heading="Printed Sneakers"
           description="Give your staples a snazzy makeover!"
         />
         <MainCard
@@ -48,7 +48,7 @@ function TrendingFootWear() {
         <MainCard
           url="https://www.myntra.com/printed-sneakers?f=Gender%3Amen%20women%2Cwomen"
           src={Sneakerswomen}
-          heading="Printed Sneakers For Women"
+          heading="Printed Sneakers"
           description="There's no sneaking past these!"
         />
         <MainCard
@@ -66,7 +66,7 @@ function TrendingFootWear() {
         <MainCard
           url="https://www.myntra.com/women-footwear?f=Brand%3ARocia"
           src={FootwearRocia}
-          heading="Women's Footwear By Rocia"
+          heading="Footwear By Rocia"
           description="A little causual, a little glam"
         />
         <MainCard

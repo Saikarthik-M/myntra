@@ -12,9 +12,9 @@ import Kurtasbiba from "../images/trendingindianwear/Kurtasbiba.png";
 import Summer from "../images/trendingindianwear/SummerReady.png";
 function TrendingIndianWear() {
   return (
-    <div class="container-fluid mx-1">
-      <h3 class="dealsheadingfont">TRENDING IN INDIAN WEAR</h3>
-      <div class="row mt-5">
+    <div className="container-fluid mx-1">
+      <h3 className="dealsheadingfont">TRENDING IN INDIAN WEAR</h3>
+      <div className="row mt-5">
         <MainCard
           url="https://www.myntra.com/mens-occasion-wear?f=Categories%3ADhotis%2CKurta%20Sets%2CKurtas%2CNehru%20Jackets%2CSherwani%3A%3AColor%3AWhite_f2f2f2"
           src={Allwhite}
@@ -42,7 +42,7 @@ function TrendingIndianWear() {
         <MainCard
           url="https://www.myntra.com/hangup?f=Categories%3AKurta%20Sets%2CKurtas"
           src={Handpicked}
-          heading="Handpicked Trendy Styles"
+          heading="Handpicked Trendy"
           description="Update the language of comfort with these "
         />
         <MainCard

@@ -2,24 +2,24 @@ import React from "react";
 
 function BannerCard(props) {
   return (
-    <div class="row">
-      <div class="col-6">
-        <img src={props.src} alt="..." class="w-100 h-100 mr-0 pr-0" />
+    <div className="row">
+      <div className="col-6">
+        <img src={props.src} alt="..." className="w-100 h-100 mr-0 pr-0" />
       </div>
       <div
-        class="col-6 ml-n3 banner-middle-parent"
+        className="col-6 ml-n3 banner-middle-parent"
         style={{
           backgroundColor: props.color
         }}
       >
-        <div class="banner-middle-child">
-          <h1 class="text-left" style={{ fontSize: "3vw" }}>
+        <div className="banner-middle-child banner-title">
+          <h1 className="text-left" style={{ fontSize: "3vw" }}>
             {props.heading}
           </h1>
-          <h3 class="text-left" style={{ fontSize: "2vw" }}>
+          <h3 className="text-left" style={{ fontSize: "2vw" }}>
             {props.description}
           </h3>
-          <h3 class="text-left" style={{ fontSize: "1vw" }}>
+          <h3 className="text-left" style={{ fontSize: "1vw" }}>
             +EXPLORE
           </h3>
         </div>

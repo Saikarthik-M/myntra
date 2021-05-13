@@ -12,13 +12,13 @@ import Apparel from "../images/trendingsportswear/Apparel.png";
 import Running from "../images/trendingsportswear/Running.png";
 function TrendingSportsWear() {
   return (
-    <div class="container-fluid mx-1">
-      <h3 class="dealsheadingfont">TRENDING IN SPORTS WEAR</h3>
-      <div class="row mt-5">
+    <div className="container-fluid mx-1">
+      <h3 className="dealsheadingfont">TRENDING IN SPORTS WEAR</h3>
+      <div className="row mt-5">
         <MainCard
           url=""
           src={Nikestyles}
-          heading="Online Exclusive Nike Styles"
+          heading="Online Exclusive Nike"
           description="For an unflexible goal & a flexible workout"
         />
         <MainCard

@@ -13,6 +13,7 @@ import Navbar from "./components/navbar";
 import Banner1 from "./components/banner1";
 import Banner2 from "./components/banner2";
 import Banner3 from "./components/banner3";
+import Footer from "./components/footer";
 function Myntra() {
   return (
     <div>
@@ -28,6 +29,7 @@ function Myntra() {
       <TrendingSportsWear />
       <TrendingFootwear />
       <TrendingAccessories />
+      <Footer />
     </div>
   );
 }

@@ -2,10 +2,10 @@ import React from "react";
 
 function ExploreTopBrandsCard(props) {
   return (
-    <div class="col-5 col-md-2 col-xl-2 col-lg-2 mx-3">
+    <div className="col-11 col-md-5 col-lg-3 col-xl-2 mx-5 mx-md-3 mx-lg-3 mx-xl-3  my-4">
       <a href={props.url} style={{ textDecoration: "none" }}>
         <div
-          class="card h-100"
+          className="card h-100"
           style={{
             width: "15rem",
             border: "none",
@@ -22,17 +22,17 @@ function ExploreTopBrandsCard(props) {
               marginTop: "25px",
               borderRadius: "10px"
             }}
-            class="shadow"
+            className="shadow"
           />
           <img
             src={props.src2}
             alt="..."
             width={props.width}
-            class="mx-auto pt-3"
+            className="mx-auto pt-3"
           />
-          <div class="card-body">
+          <div className="card-body">
             <h4
-              class="card-text text-center mt-n3 pb-4"
+              className="card-text text-center mt-n3 pb-4"
               style={{ color: "rgba(0,0,0,0.7)" }}
             >
               {props.offer}

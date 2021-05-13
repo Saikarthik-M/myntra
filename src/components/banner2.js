@@ -14,8 +14,8 @@ import Bannerimg9 from "../images/banner2/banner9.png";
 import BannerCard from "../cards/bannercard";
 function Banner2() {
   return (
-    <OwlCarousel className="owl-theme" items={1} autoplay={true}>
-      <div class="item">
+    <OwlCarousel className="owl-theme" loop={true} items={1} autoplay={true}>
+      <div className="item">
         <BannerCard
           color="#ECC88D"
           src={Bannerimg1}
@@ -23,7 +23,7 @@ function Banner2() {
           description="Women casual wear at 40-70% off"
         />
       </div>
-      <div class="item">
+      <div className="item">
         <BannerCard
           color="#C1F2F8"
           src={Bannerimg3}
@@ -31,7 +31,7 @@ function Banner2() {
           description="Kids flip-flops & sandals starting at ₹199"
         />
       </div>
-      <div class="item">
+      <div className="item">
         <BannerCard
           color="#CAC36F"
           src={Bannerimg6}
@@ -39,7 +39,7 @@ function Banner2() {
           description="Men's flip-flops at ₹199"
         />
       </div>
-      <div class="item">
+      <div className="item">
         <BannerCard
           color="#BB895A"
           src={Bannerimg5}
@@ -47,7 +47,7 @@ function Banner2() {
           description="starts at ₹299"
         />
       </div>
-      <div class="item">
+      <div className="item">
         <BannerCard
           color="#C9A974"
           src={Bannerimg7}
@@ -55,7 +55,7 @@ function Banner2() {
           description="Sarees under ₹799"
         />
       </div>
-      <div class="item">
+      <div className="item">
         <BannerCard
           color="#E6A18B"
           src={Bannerimg8}
@@ -63,7 +63,7 @@ function Banner2() {
           description="Save upto 80-70%"
         />
       </div>
-      <div class="item">
+      <div className="item">
         <BannerCard
           color="#B8CCEC"
           src={Bannerimg9}

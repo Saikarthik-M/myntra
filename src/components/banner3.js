@@ -7,19 +7,19 @@ function Banner3() {
       href="https://myntra.giveindia.org/"
       style={{ textDecoration: "none", color: "black" }}
     >
-      <div class="row mt-2">
-        <div class="col-4">
-          <img src={Bannerimg2} alt="..." class="w-100" />
+      <div className="row mt-2">
+        <div className="col-4">
+          <img src={Bannerimg2} alt="..." className="w-100" />
         </div>
-        <div class="col-4 text-center">
+        <div className="col-4 text-center py-md-5 py-lg-5 py-xl-5 py-0 banner-title">
           <img src={Bannerimg1} alt="..." width="50%" />
-          <h1 style={{ fontSize: "1.3vw" }}>
+          <h1 style={{ fontSize: "1.3vw", opacity: "0.7" }} className="px-3">
             Help Critical Patients In The Fight Against Covid-19
           </h1>
         </div>
-        <div class="col-4 text-center">
+        <div className="col-4 text-center py-md-5 py-lg-5 py-xl-5 py-0">
           <h3
-            class="alert"
+            className="alert"
             style={{
               fontSize: "1.4vw",
               backgroundColor: "#FE5150",

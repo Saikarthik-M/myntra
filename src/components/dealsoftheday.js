@@ -12,9 +12,9 @@ import Moda from "../images/dealsoftheday/logo2/moda.png";
 import Wild from "../images/dealsoftheday/logo2/wild.png";
 function DealsOfTheDay() {
   return (
-    <div class="container-fluid mx-1 mt-5">
-      <h3 class="dealsheadingfont">DEALS OF THE DAY</h3>
-      <div class="row mt-5">
+    <div className="container-fluid mx-1 mt-5">
+      <h3 className="dealsheadingfont">DEALS OF THE DAY</h3>
+      <div className="row mt-5">
         <DealsOfTheDayCard
           url="https://www.myntra.com/home-furnishing-kitchen-table-menu?plaEnabled=false&rf=Price%3A206.0_999.0_206.0%20TO%20999.0"
           src={Dine}

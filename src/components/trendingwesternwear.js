@@ -12,9 +12,9 @@ import Ecofriend from "../images/trendingwesternwear/Eco-frnd.png";
 
 function TrendingWesternWear() {
   return (
-    <div class="container-fluid mx-1 mt-5">
-      <h3 class="dealsheadingfont">TRENDING IN WESTERN WEAR</h3>
-      <div class="row mt-5">
+    <div className="container-fluid mx-1 mt-5">
+      <h3 className="dealsheadingfont">TRENDING IN WESTERN WEAR</h3>
+      <div className="row mt-5">
         <MainCard
           url="https://www.myntra.com/men-topwear?f=Categories%3AShirts%2CTshirts%3A%3APattern%3AColourblocked"
           src={Vibrant}
@@ -36,7 +36,7 @@ function TrendingWesternWear() {
         <MainCard
           url="https://www.myntra.com/men-topwear?f=Categories%3AShirts%2CTshirts%3A%3AOccasion%3ACasual%3A%3APattern%3AStriped"
           src={Versatile}
-          heading="Versatile Striped Collection"
+          heading="Versatile Striped"
           description="Just your stripe of wardrobe stable"
         />
         <MainCard

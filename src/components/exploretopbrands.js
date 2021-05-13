@@ -22,9 +22,9 @@ import Wlogo from "../images/exploretopbrands/logo/wlogo.png";
 import Hmlogo from "../images/exploretopbrands/logo/hmlogo.png";
 function ExploreTopBrands() {
   return (
-    <div class="container-fluid mx-1">
-      <h3 class="dealsheadingfont">EXPLORE TRENDING OF THE DAY</h3>
-      <div class="row mt-5">
+    <div className="container-fluid mx-1">
+      <h3 className="dealsheadingfont">EXPLORE TRENDING OF THE DAY</h3>
+      <div className="row mt-5">
         <ExploreTopBrandsCard
           src1={Fitness}
           src2={Nikelogo}
